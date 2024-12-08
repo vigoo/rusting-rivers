@@ -1,0 +1,15 @@
+[package]
+name = "rusting-rivers"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+harness = false
+
+[dependencies]
+async-recursion = "1.1"
+async-trait = "0.1"
+tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+test-r = "1.1.0"
